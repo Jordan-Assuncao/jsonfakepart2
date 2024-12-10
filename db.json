@@ -1,0 +1,32 @@
+{
+    "ClassificacoesIndicativas": [
+        { "id": 1,"faixaEtaria":"Livre"},
+        { "id": 2,"faixaEtaria":"8 Anos"},
+        { "id": 3,"faixaEtaria":"16 Anos"},
+        { "id": 4,"faixaEtaria":"18 Anos"}
+    ],
+    "Generos": [
+        { "id": 1,"nomeGenero":"Ação", "descricao": "Descrição exemplo1"},
+        { "id": 2,"nomeGenero":"Aventura", "descricao": "Descrição exemplo2"},
+        { "id": 3,"nomeGenero":"Comédia", "descricao": "Descrição exemplo3"},
+        { "id": 4,"nomeGenero":"Documentário", "descricao": "Descrição exemplo4"}
+    ],
+    "Filmes": [
+        { "id": 1,"titulo":"Filme 1", "sinopse": "Descrição exemplo1","duracao":120, "cartaz": "urlimagem1", "idClassificacaoIndicativa":1},
+        { "id": 2,"titulo":"Filme 2", "sinopse": "Descrição exemplo2","duracao":240, "cartaz": "urlimagem2", "idClassificacaoIndicativa":1},
+        { "id": 3,"titulo":"Filme 3", "sinopse": "Descrição exemplo3","duracao":160, "cartaz": "urlimagem3", "idClassificacaoIndicativa":2},
+        { "id": 4,"titulo":"Filme 4", "sinopse": "Descrição exemplo4","duracao":140, "cartaz": "urlimagem4", "idClassificacaoIndicativa":3}
+    ],
+    "FilmeGeneros": [
+    { "id": 1, "idFilme": 1, "idGenero": 1 },
+    { "id": 2, "idFilme": 1, "idGenero": 2 },
+    { "id": 3, "idFilme": 2, "idGenero": 3 },
+    { "id": 4, "idFilme": 3, "idGenero": 4 }
+    ],
+    "Precos": [
+        { "id": 1,"valorInteira":20.00},
+        { "id": 2,"valorInteira":30.00},
+        { "id": 3,"valorInteira":40.00},
+        { "id": 4,"valorInteira":42.00}
+    ]
+}
