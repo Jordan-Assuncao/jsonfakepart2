@@ -1,0 +1,33 @@
+{
+"ClassificacoesIndicativas": [
+        { "id": 1,"faixaEtaria":"Livre", "descricao": "Livre(L)"},
+        { "id": 2,"faixaEtaria":"8 Anos", "descricao": "Não recomendado para menores de 8 anos"},
+        { "id": 3,"faixaEtaria":"16 Anos", "descricao": "Não recomendado para menores de 16 anos"},
+        { "id": 4,"faixaEtaria":"18 Anos", "descricao": "Não recomendado para menores de 18 anos"}
+    ],
+    "Generos": [
+        { "id": 1,"nomeGenero":"Ação", "descricao": "Descrição exemplo1"},
+        { "id": 2,"nomeGenero":"Aventura", "descricao": "Descrição exemplo2"},
+        { "id": 3,"nomeGenero":"Comédia", "descricao": "Descrição exemplo3"},
+        { "id": 4,"nomeGenero":"Documentário", "descricao": "Descrição exemplo4"}
+    ],
+    "Filmes": [
+        { "id": 1,"titulo":"Filme A", "sinopse": "Descrição exemplo1","duracao":120, "cartaz": "urlimagem1", "idClassificacaoIndicativa":"Livre"},
+        { "id": 2,"titulo":"Filme B", "sinopse": "Descrição exemplo2","duracao":240, "cartaz": "urlimagem2", "idClassificacaoIndicativa":"8 Anos"},
+        { "id": 3,"titulo":"Filme C", "sinopse": "Descrição exemplo3","duracao":160, "cartaz": "urlimagem3", "idClassificacaoIndicativa":"16 Anos"},
+        { "id": 4,"titulo":"Filme D", "sinopse": "Descrição exemplo4","duracao":140, "cartaz": "urlimagem4", "idClassificacaoIndicativa":"18 Anos"}
+    ],
+    "Precos": [
+        { "id": 1,"valorInteira":"20.00", "descricao": "Valor Segunda e Terça"},
+        { "id": 2,"valorInteira":"30.00", "descricao": "Valor Semanal"},
+        { "id": 3,"valorInteira":"40.00", "descricao": "Valor Fim de Semana"},
+        { "id": 4,"valorInteira":"42.00", "descricao": "Valor de Estreia"}
+    ],
+    "TiposDeExibicao": [
+        { "id": 1,"formatoExibicao":"2D","descricao":"exemplo A", "formatoUnico": true},
+        { "id": 2,"formatoExibicao":"3D","descricao":"exemplo B", "formatoUnico": true},
+        { "id": 3,"formatoExibicao":"HD","descricao":"exemplo C", "formatoUnico": false},
+        { "id": 4,"formatoExibicao":"DUBLADO","descricao":"exemplo D", "formatoUnico": false},
+        { "id": 5,"formatoExibicao":"LEGENDADO","descricao":"exemplo E", "formatoUnico": false}
+    ]
+}
